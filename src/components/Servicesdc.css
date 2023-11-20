@@ -1,0 +1,46 @@
+/* ClothingReviews.css */
+
+.clothing-reviews-container {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .review-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .review-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .rating {
+    color: #f8d71d;
+    font-size: 24px;
+  }
+  
+  .star-icon {
+    font-size: 24px;
+    color: #f8d71d;
+    cursor: pointer;
+    margin: 0 2px;
+  }
+  
+  .star-icon.selected {
+    color: #f8d71d;
+  }
+  
+  .btn-primary {
+    background-color: #f8d71d;
+    border-color: #f8d71d;
+  }
+  
+  .btn-primary:hover {
+    background-color: #c6a700;
+    border-color: #c6a700;
+  }
+  
